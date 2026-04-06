@@ -1,119 +1,67 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body{
+    background: linear-gradient(to right, lightgreen, seagreen);
+    font-family: Arial;
+    padding: 20px;
 }
- 
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f0f4f8;
-    color: #333;
-    line-height: 1.7;
-}
- 
-.container {
-    max-width: 800px;
-    margin: 40px auto;
-    background-color: #ffffff;
-    border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-}
- 
 
-header {
-    background-color: #1a73e8;
-    color: white;
-    padding: 30px 40px;
-    text-align: center;
+p{
+    color: darkslategray;
+    font-weight: 500;
+    line-height: 1.6;
 }
- 
-header h1 {
-    font-size: 2rem;
-    letter-spacing: 1px;
-    margin-bottom: 6px;
-}
- 
-header h3 {
-    font-size: 1rem;
-    font-weight: 400;
-    opacity: 0.9;
-}
- 
-section {
-    padding: 24px 40px;
-    border-bottom: 1px solid #e8edf2;
-}
- 
-section:last-child {
-    border-bottom: none;
-}
- 
-h2 {
-    font-size: 1.2rem;
-    color: #1a73e8;
-    margin-bottom: 12px;
-    padding-bottom: 6px;
-    border-bottom: 2px solid #e8f0fe;
-}
- 
-p {
-    font-size: 0.97rem;
-    color: #444;
-}
- 
+
 img {
     display: block;
-    border-radius: 10px;
-    border: 3px solid #1a73e8;
-    margin-top: 8px;
+    border-radius: 12px;
+    border: 3px solid orange;
+    margin-top: 10px;
+    max-width: 100%;
 }
- 
+
+a {
+    color: slateblue;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    color: darkslateblue;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+b{
+    text-decoration: underline;
+    color: darkslategray;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 8px;
-    font-size: 0.95rem;
+    margin-top: 12px;
+    background: white;
+    border-radius: 8px;
+
 }
- 
+
 table th {
-    background-color: #1a73e8;
+    background: violet;
     color: white;
-    padding: 10px 14px;
+    padding: 12px;
     text-align: left;
 }
- 
+
 table td {
-    padding: 10px 14px;
-    border: 1px solid #d0dce8;
+    padding: 12px;
+    border-bottom: 1px solid lightgray;
 }
- 
-table tr:nth-child(even) td {
-    background-color: #f0f6ff;
+
+table tr:hover {
+    background: whitesmoke;
 }
- 
-table tr:hover td {
-    background-color: #dbeafe;
-}
- 
-ul, ol {
-    padding-left: 24px;
-    margin-top: 8px;
-}
- 
-ul li, ol li {
-    margin-bottom: 6px;
-    font-size: 0.95rem;
-    color: #444;
-}
- 
-a {
-    color: #1a73e8;
-    text-decoration: none;
-    font-weight: 500;
-}
- 
-a:hover {
-    text-decoration: underline;
-    color: #0d47a1;
+
+h1{
+    color: crimson;
+    text-align: center;
+    margin-bottom: 10px;
 }
