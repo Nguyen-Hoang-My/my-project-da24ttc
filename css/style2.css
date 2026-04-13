@@ -38,7 +38,7 @@ form h3.title{
 .button {
     display: block;
     margin: 10px auto;
-    background-color: aqua;
+    background-color: rgb(77, 226, 226);
     color: black;
     border-radius: 5px;
     padding: 5px;
