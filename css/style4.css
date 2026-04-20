@@ -1,0 +1,13 @@
+.container {
+    margin: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 500px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
