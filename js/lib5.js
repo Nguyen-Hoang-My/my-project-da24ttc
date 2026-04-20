@@ -1,10 +1,13 @@
 function inBang() {
-    let n = parseInt(document.getElementById("so").value);
+    const myForm = document.forms["frmBang"];
+
+    let myNum = parseInt(myForm.elements[0].value);
+
     let kq = "";
 
     for (let i = 1; i <= 10; i++) {
-        kq += n + " x " + i + " = " + (n * i) + "<br>";
+        kq += myNum + " x " + i + " = " + (myNum * i) + "<br>";
     }
 
-    document.getElementById("ketqua").innerHTML = kq;
+    document.querySelector(".kq").innerHTML = kq;
 }
