@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <title>Thiết kế form</title>
+    <meta charset="utf-8">
+</head>
+<body>
+    <div class="container">
+        <div class="product-list" id="product-list">
+        </div>
+    </div>
+
+  <script>
+    const productItem = document.createElement("div");
+    productItem.setAttribute("class", "product-item");
+
+    const productImage = document.createElement("div");
+    productImage.setAttribute("class", "product-image");
+
+    const myImage = document.createElement("img");
+    myImage.setAttribute("src", "../assets/images/low-multiverse.jpg");
+    myImage.setAttribute("alt", "Đa vũ trụ cấp thấp");
+
+    productImage.appendChild(myImage);
+
+    const productInfo = document.createElement("div");
+    productInfo.setAttribute("class", "product-info");
+
+    const productName = document.createElement("p");
+    productName.appendChild(document.createTextNode("Low"));
+
+    const productPrice = document.createElement("p");
+    productPrice.appendChild(document.createTextNode("1/1"));
+
+    // Tạo link
+    const productLink = document.createElement("a");
+    productLink.setAttribute("href", "product-detail.html");
+
+    const productLinkText = document.createTextNode("Xem chi tiết");
+    productLink.appendChild(productLinkText);
+
+    // Gắn vào info
+    productInfo.appendChild(productName);
+    productInfo.appendChild(productPrice);
+    productInfo.appendChild(productLink);
+
+    productItem.appendChild(productImage);
+    productItem.appendChild(productInfo);
+
+    document.getElementById("product-list").appendChild(productItem);
+</script>
+</body>
+</html>
