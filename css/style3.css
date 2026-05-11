@@ -1,0 +1,83 @@
+body{
+    font-family: Arial;
+    background:#eee;
+}
+
+
+.wrapper{
+    width: 700px;
+    margin: 50px auto;
+    background: #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px gray;
+}
+
+
+.header{
+    padding: 15px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+}
+
+.close{
+    float: right;
+    cursor: pointer;
+}
+
+
+.main-table{
+    width: 100%;
+    padding: 20px;
+}
+
+.left{
+    width: 40%;
+    background: #ccc;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.right{
+    width: 60%;
+    padding: 20px;
+}
+
+
+input[type="text"],
+input[type="password"]{
+    width: 95%;
+    padding: 6px;
+    margin: 5px 0;
+}
+
+
+.login-btn{
+    width: 100%;
+    background: #5cb85c;
+    color: white;
+    padding: 8px;
+    border: none;
+    margin-top: 10px;
+}
+
+.forgot{
+    width: 100%;
+    margin-top: 5px;
+}
+
+.register-btn{
+    background: #5bc0de;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 80%;
+}
+
+
+.right span{
+    color: green;
+}
+
+.right ul{
+    margin-top: 10px;
+}

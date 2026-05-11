@@ -1,0 +1,67 @@
+body{
+    background: linear-gradient(to right, lightgreen, seagreen);
+    font-family: Arial;
+    padding: 20px;
+}
+
+p{
+    color: darkslategray;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+img {
+    display: block;
+    border-radius: 12px;
+    border: 3px solid orange;
+    margin-top: 10px;
+    max-width: 100%;
+}
+
+a {
+    color: slateblue;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    color: darkslateblue;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+b{
+    text-decoration: underline;
+    color: darkslategray;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+    background: white;
+    border-radius: 8px;
+
+}
+
+table th {
+    background: violet;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+table td {
+    padding: 12px;
+    border-bottom: 1px solid lightgray;
+}
+
+table tr:hover {
+    background: whitesmoke;
+}
+
+h1{
+    color: crimson;
+    text-align: center;
+    margin-bottom: 10px;
+}
